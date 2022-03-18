@@ -1,0 +1,47 @@
+from sources.interface_selecao_cortes_Copy17 import *
+import warnings
+import getpass 
+
+warnings.filterwarnings('ignore') 
+
+#usuario = "ETB348056"
+#Usuário e Senha Hana
+
+usuario = input('Usuário: ')
+senha = getpass.getpass('Senha: ')
+______________________________________________
+atena = SelecaoLayout(usuario, senha)
+______________________________________________
+atena.show()
+______________________________________________
+atena.botao_realizar_selecao.disabled = False
+----------------------------------------------
+DESCRIÇÃO
+
+1  Atena - Coelba
+1.1  Seleção Estratégica de Cortes
+Se tiver dúvidas ou quiser entender melhor o algoritmo de seleção: Documentação/Tutorial
+
+Qualquer sugestão, reclamação ou dúvida:
+
+- E-mail: hfontes@neoenergia.com
+- Telefone: + 55 (84) 3215-6492
+- Celular/Wpp: + 55 (84) 99668-7815
+- E-mail: arthur.alves@neoenergia.com
+----------------------------------------------
+Atena
+- Configuracoes
+- resultados
+- sources
+- static
+
+
+Atena>sources
+- interface_selecao_cortes_Copy17.py
+- selecao_cortes_Copy11.py
+
+Atena>sources>Sqls
+- SuscetiveisTabela.sql
+
+Atena>static
+- style.css
