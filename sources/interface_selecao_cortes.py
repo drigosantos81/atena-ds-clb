@@ -1,4 +1,4 @@
-from sources.selecao_cortes_Copy11 import *
+from sources.selecao_cortes import *
 
 from functools import partial 
 import ipywidgets as widgets
